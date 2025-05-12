@@ -1,12 +1,134 @@
-# React + Vite
+Perfect — let’s add a clean, professional `README.md` for your POD T-Shirt Customizer React project using `vite`, `react-hook-form`, `tailwindcss`, and Cloudflare Pages deployment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Here’s a polished, structured README you can drop right into your project root:
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 `README.md`
 
-## Expanding the ESLint configuration
+````markdown
+# 👕 POD T-Shirt Customizer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A responsive, interactive T-shirt print-on-demand (POD) customizer built with **React**, **Vite**, **React Hook Form**, and **Tailwind CSS**. Users can select size attributes, upload images, and enter custom text for T-shirt designs, with three unique form styles switchable via `Alt + Q`.
+
+---
+
+## ✨ Features
+
+- 📏 Select Height, Weight, and Build options.
+- 🖼️ Upload your own image via file picker or drag & drop.
+- ✏️ Enter custom text (max 3 lines) to print on the T-shirt.
+- 🎨 Switch between **3 vibrant form styles** using **Alt + Q**.
+- 📥 Download final preview as an image (via `html2canvas`).
+- ⚡ Fully responsive layout for mobile, tablet, and desktop.
+- 🌐 Deployed on **Cloudflare Pages** (no Next.js, Vue, or Vercel).
+
+---
+
+## 📦 Tech Stack
+
+- **React 19**
+- **Vite 6**
+- **React Hook Form 7**
+- **Tailwind CSS 4**
+- **html2canvas**
+- **Cloudflare Pages**
+
+---
+
+## 🚀 Getting Started
+
+### 📚 Clone the Repo
+
+```bash
+git clone https://your-repo-url.git
+cd pod-tshirt-customizer
+````
+
+### 📦 Install Dependencies
+
+```bash
+npm install
+```
+
+### 🎨 Run Locally
+
+```bash
+npm run dev
+```
+
+Project will run at: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Production-ready files will be generated in the `/dist` folder.
+
+---
+
+## ☁️ Cloudflare Pages Deployment
+
+1. Link this repository to your Cloudflare Pages project.
+2. Set the build command to:
+
+```bash
+npm run build
+```
+
+3. Set the output directory to:
+
+```bash
+dist
+```
+
+4. Select **Node 18.17.1** or higher in settings.
+5. Trigger a deploy.
+
+✅ Done!
+
+---
+
+## 🎛️ Keyboard Shortcuts
+
+* **Alt + Q** → Cycle between 3 different form style versions (colors, layouts, and input borders).
+
+---
+
+## 📝 Author
+
+Abhay Sariyal
+💌 abhaysariyal143@
+👨‍💻 React, Vite, Tailwind enthusiast
+
+---
+
+## 📜 License
+
+This project is open-sourced under the [MIT License](LICENSE).
+
+---
+
+## 📷 Preview
+
+![App Screenshot](./public/screenshot.png)
+
+---
+
+```
+
+---
+
+✅ **Note:**  
+- Add a `public/screenshot.png` image showing your app if you’d like the preview section to render in platforms like GitHub.
+- Adjust `git clone` URL and author info as needed.
+- Create a `LICENSE` file if licensing matters for your submission.
+
+---
+
+Would you like me to auto-generate a `LICENSE` file for MIT too? 🎨
+```
